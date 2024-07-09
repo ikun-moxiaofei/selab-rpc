@@ -12,7 +12,7 @@ public class EasyConsumerExample {
         // todo 需要获取 UserService 的实现类对象
         UserService userService = null;
         User user = new User();
-        user.setName("yupi");
+        user.setName("moxiaofei");
         // 调用
         User newUser = userService.getUser(user);
         if (newUser != null) {
